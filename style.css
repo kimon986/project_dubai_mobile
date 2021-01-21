@@ -1,0 +1,337 @@
+/***everything***/
+
+* {
+    box-sizing: border-box;
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 500px;
+} 
+
+/***navigation***/
+
+nav {
+    background-color: rgb(249, 112, 7);
+    width: fit-content;
+    padding: 20px 25px;
+    font-size: 30px;
+    color: white;
+}
+
+/***home***/
+
+.home-page div {
+    margin: 20px auto 25px auto;
+    display: inline-block;
+}
+
+.home-page div i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.home-page div i:first-child {
+    color: white;
+}
+
+header > h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.home-page > .btn-filled {
+    margin: 30px 0 24px 40%;  
+    padding: 5px 10px;
+    background-color:rgb(249, 112, 7);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    width: 20%;
+    font-size: 20px;
+}
+
+.heading1 {
+    font-weight: 100;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/***page 2 section***/
+
+.heading2 {
+    margin: 40px 0 10px 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.page2 {
+    background: url(images/dubai2.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    padding-top: 170px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin: 0 25px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page2 > p {
+    line-height: 25px;
+}
+
+/***page 3***/
+
+
+.page3 {
+    margin: 0 25px;
+    margin-bottom: 30px; 
+}
+
+
+.page3 > div > img {
+    float: left;
+    height: 180px;
+    width: 220px;
+    padding-bottom: 30px;
+    object-fit: fill;
+    filter: brightness(70%);
+    padding-right: 25px;
+}
+
+.page3 > div:nth-child(2) > .heading3 {
+    color:rgb(249, 112, 7);
+}
+
+.page3 > div > .heading3 {
+    padding-bottom: 15px;
+}
+
+.page3 > div > .heading4 {
+    padding-bottom: 15px;
+}
+
+/***image gallery***/
+
+.image-gallery {
+    margin: 0 25px;
+    margin-bottom: 30px;  
+}
+
+.image-gallery img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.image-gallery div p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image-gallery div .spec {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.arrows {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.arrows i {
+    color: gray;
+}
+
+.arrows p {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.first {
+    border: 1px rgb(249, 112, 7) solid;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    margin-left: 25px;
+    color:rgb(249, 112, 7);
+}
+
+/***articles***/
+
+.ballet {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai7.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 70px;        
+}
+
+.myheading {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.articles > .ballet > .btn-outline {
+    margin: 30px 0 24px 30%;  
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid rgb(249, 112, 7);
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.articles > .ballet > .btn-outline > i {
+    margin-left: 8px;
+}
+
+.time {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai10.jpg);
+    background-size: cover;
+    height: 250px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.articles > .time > .btn-outline {
+    margin: 30px 0 24px 30%;  
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.articles div {
+    margin: 20px auto 25px 155px;
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
+.articles div i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.articles div i:first-child {
+    color: black;
+}
+
+.balloons {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai11.jpg);
+    background-size: cover;
+    height: 750px;
+    margin-bottom: 70px;  
+    margin-left: 35px;
+    margin-right: 35px;      
+}
+
+.articles > .balloons > .btn-outline {
+    margin: 180px 0 24px 27%;  
+    padding: 20px 12px;
+    background-color: rgb(249, 112, 7);
+    border: 2px solid rgb(249, 112, 7);
+    color: white;
+    text-transform: uppercase;
+    width: 45%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.articles > .balloons > .btn-outline > i {
+    margin-left: 8px;
+}
+
+.selena {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/the_one_and_only_selena_gomez.jpg);
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 70px; 
+    margin-left: 35px;
+    margin-right: 35px;           
+}
+
+.articles > .selena > .btn-outline {
+    margin: 310px 0 24px 27%;  
+    padding: 20px 12px;
+    background-color: transparent;
+    border: 2px solid rgb(249, 112, 7);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 45%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.articles > .selena > .btn-outline > i {
+    margin-left: 8px;
+}
+
+.birds {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai12.jpg);
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 70px; 
+    margin-left: 35px;
+    margin-right: 35px;           
+}
+
+.articles > .birds > .btn-outline {
+    margin: 310px 0 24px 27%;  
+    padding: 20px 12px;
+    background-color: transparent;
+    border: 2px solid rgb(249, 112, 7);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 45%;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.articles > .birds > .btn-outline > i {
+    margin-left: 8px;
+}
+
+.fa-bookmark {
+    color:rgb(249, 112, 7);
+    position: relative;
+}
+
+/***STICKY NAVBAR ATTEMPT***/
+
