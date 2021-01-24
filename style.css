@@ -53,7 +53,8 @@ header > h1 {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai1.jpg);
+    /*TODO: use position center*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dubai1.jpg) center;
     background-size: cover;
     color: white;
 }
@@ -171,6 +172,7 @@ header > h1 {
 }
 
 .first {
+    /*TODO: Don't forget about box size*/
     border: 1px rgb(249, 112, 7) solid;
     padding-right: 17px;
     padding-left: 17px;
@@ -331,6 +333,9 @@ header > h1 {
 .fa-bookmark {
     color:rgb(249, 112, 7);
     position: relative;
+    /*    TODO: just - "left: -45px and top: 9px;" */
+    left: -45px;
+    top: 9px;
 }
 
 
